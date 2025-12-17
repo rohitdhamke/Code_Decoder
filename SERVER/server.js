@@ -13,7 +13,7 @@ const groq = new Groq({
 // Middleware
 
 app.use(cors({
-  origin: "https://shimmering-dango-5a863eF.netlify.app",
+  origin: "https://shimmering-dango-5a863ef.netlify.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],allowedHeaders: ["Content-Type", "Authorization"],     
   credentials: true
 }));
